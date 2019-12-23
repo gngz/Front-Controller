@@ -36,9 +36,9 @@ A solução que o padrão de desenho *Front Controller* fornece é a utilizaçã
 ## Consequências
 Da análise deste padrão de desenho, podemos retirar as seguintes vantagens e desvantagens da sua implementação:
 ### Vantagens
-* **Controlo Centralizado** -
-* **Configurabilidade** -
-* **Reduz o código redundante** -
+* **Controlo Centralizado** - O *Front Controller* lida de forma centralizada todos os pedidos de uma aplicação. Dessa forma evita o uso de vários controladores, o que é desejável de forma a não repetir processamento de algumas tarefas comuns a todos os pedidos.
+* **Configurabilidade** - Como apenas é necessário um controlador principal na aplicação, a configuração desta é largamente simplificada. É fácil de modificar o comportamento do tratamento dos pedidos e também de adicionar novos *handlers* para tratar outros tipos de pedidos.
+* **Reduz o código redundante** - Este padrão promove a construção de aplicações mais limpas e incentiva a reutilização, à medida que o código comum de tratamento dos pedidos, passa para o *Front Controller*.
 ### Desvantagens
 A nível das desvantagens:
 * **Ponto de falha** - Como há centralização de pedidos numa entidade, se ocorrer qualquer tipo de falha nessa entidade, poderá pôr em risco o funcionamento do tratamento dos pedidos, ou seja, há uma dependência imensa nessa entidade (controlador).
