@@ -64,6 +64,9 @@ Este padrão é muito utilizado em Aplicações *Web* e é implementado em diver
 * JavaScript: [Express.js](https://expressjs.com/), [AdonisJs](https://adonisjs.com/).
 * Java: [Spring Framework](https://spring.io/), [Apache Struts](https://struts.apache.org/).
 ## Exemplo
+
+![UML do exemplo](ExampleUML.png)
+
 Na pasta *Example* está disponível um exemplo de implementação do padrão *Front Controller*.
 Foi definida uma *Interface* *IView* que todas as *views* têm de implementar. Essa *interface* define o método *Display* que será chamado pelo *Dispatcher* quando receber um pedido para essa *view*.
 
