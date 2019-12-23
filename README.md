@@ -53,11 +53,8 @@ Da análise deste padrão de desenho, podemos retirar as seguintes vantagens e d
 * **Configurabilidade** - Como apenas é necessário um controlador principal na aplicação, a configuração desta é largamente simplificada. É fácil de modificar o comportamento do tratamento dos pedidos e também de adicionar novos *handlers* para tratar outros tipos de pedidos.
 * **Reduz o código redundante** - Este padrão promove a construção de aplicações mais limpas e incentiva a reutilização, à medida que o código comum de tratamento dos pedidos, passa para o *Front Controller*.
 ### Desvantagens
-A nível das desvantagens:
 * **Ponto de falha** - Como há centralização de pedidos numa entidade, se ocorrer qualquer tipo de falha nessa entidade, poderá pôr em risco o funcionamento do tratamento dos pedidos, ou seja, há uma dependência imensa nessa entidade (controlador).
-
 * **Desempenho** - Pior desempenho nas situações onde não é necessário fazer nenhum processamento, ou seja, só necessita de redirecionamento do pedido. Um caso concreto onde o desempenho fica prejudicado é na autenticação. 
-
 * **Complexidade de Implementação** - Poderá ter alguma complexidade na implementação deste padrão em projetos já existentes.
 
 ## Aplicabilidade
