@@ -58,7 +58,7 @@ A nível das desvantagens:
 
 * **Desempenho** - Pior desempenho nas situações onde não é necessário fazer nenhum processamento, ou seja, só necessita de redirecionamento do pedido. Um caso concreto onde o desempenho fica prejudicado é na autenticação. 
 
-* **Complexidade** - TODO
+* **Complexidade de Implementação** - Poderá ter alguma complexidade na implementação deste padrão em projetos já existentes.
 
 ## Aplicabilidade
 Devemos utilizar o padrão de desenho *Front Controller* quando:
