@@ -34,7 +34,9 @@ Além disso, como o controlo está dividido por vários objetos, a manutenção 
 A solução que o padrão de desenho *Front Controller* fornece é a utilização de um controlador como o ponto de inicial de contacto para lidar com todos os pedidos da Aplicação. O controlador processa os pedidos, faz a chamada de serviços de segurança como autenticação e autorização, serviço de logs, entre outros e delega  o processamento das regras de negócio para a views (fazendo a escolha de uma view apropriada). As *views* ficam responsáveis apenas por tratar do recurso requisitado pelo cliente. A centralização dos pontos de decisão e tratamento trará uma redução do código necessário, e da sua complexidade.
 
 ## Consequências
+TO DO
 ### Vantagens
+TO DO
 ### Desvantagens
 A nível das desvantagens:
 * **Ponto de falha** - Como há centralização de pedidos numa entidade, se ocorrer qualquer tipo de falha nessa entidade, poderá pôr em risco o funcionamento do tratamento dos pedidos, ou seja, há uma dependência imensa nessa entidade (controlador).

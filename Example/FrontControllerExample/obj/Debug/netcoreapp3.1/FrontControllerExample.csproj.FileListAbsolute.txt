@@ -1,0 +1,11 @@
+C:\Users\Diogo Passos\source\repos\FrontControllerExample\FrontControllerExample\bin\Debug\netcoreapp3.1\FrontControllerExample.exe
+C:\Users\Diogo Passos\source\repos\FrontControllerExample\FrontControllerExample\bin\Debug\netcoreapp3.1\FrontControllerExample.deps.json
+C:\Users\Diogo Passos\source\repos\FrontControllerExample\FrontControllerExample\bin\Debug\netcoreapp3.1\FrontControllerExample.runtimeconfig.json
+C:\Users\Diogo Passos\source\repos\FrontControllerExample\FrontControllerExample\bin\Debug\netcoreapp3.1\FrontControllerExample.runtimeconfig.dev.json
+C:\Users\Diogo Passos\source\repos\FrontControllerExample\FrontControllerExample\bin\Debug\netcoreapp3.1\FrontControllerExample.dll
+C:\Users\Diogo Passos\source\repos\FrontControllerExample\FrontControllerExample\bin\Debug\netcoreapp3.1\FrontControllerExample.pdb
+C:\Users\Diogo Passos\source\repos\FrontControllerExample\FrontControllerExample\obj\Debug\netcoreapp3.1\FrontControllerExample.csprojAssemblyReference.cache
+C:\Users\Diogo Passos\source\repos\FrontControllerExample\FrontControllerExample\obj\Debug\netcoreapp3.1\FrontControllerExample.AssemblyInfoInputs.cache
+C:\Users\Diogo Passos\source\repos\FrontControllerExample\FrontControllerExample\obj\Debug\netcoreapp3.1\FrontControllerExample.AssemblyInfo.cs
+C:\Users\Diogo Passos\source\repos\FrontControllerExample\FrontControllerExample\obj\Debug\netcoreapp3.1\FrontControllerExample.dll
+C:\Users\Diogo Passos\source\repos\FrontControllerExample\FrontControllerExample\obj\Debug\netcoreapp3.1\FrontControllerExample.pdb
