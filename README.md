@@ -25,7 +25,7 @@ Síntese realizada por:
 O padrão de desenho *Front Controller* é um padrão que fornece um mecanismo centralizado para tratar pedidos, redirecionando o pedido para uma entidade final, que é responsável pelo mesmo.
 
 O padrão Front Controller é constituído pelas seguintes entidades:
-* ***Controller*** – É o ponto de contacto inicial para lidar com todas os pedidos do sistema. Pode ter auxílio de outras entidades para os processos de autenticação, ou outro tipo de processamento, antes do pedido chegar ao processo responsável por esse pedido.
+* ***Controller*** – É o ponto de contacto inicial para lidar com todas os pedidos do sistema. Pode ter auxílio de outras entidades para os processos de autenticação, gerar *logs* ou outro tipo de processamento, antes do pedido chegar ao processo responsável por esse pedido.
 * ***Dispatcher*** – Entidade responsável por redirecionar os pedidos para a entidade final  responsável por tratar o pedido.
 * ***View*** – Uma *view* representa e exibe informações solicitadas para o cliente. É a entidade aos quais os pedidos se referem.
 
