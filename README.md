@@ -66,8 +66,7 @@ Devemos utilizar o padrão de desenho *Front Controller* quando:
 * se deseja implementar o tratamento dinâmico de pedidos, ou seja, alterar o roteamento sem modificar o código.
 * se quer tornar a configuração do servidor *web* portátil, só é necessário registar a forma específica como serão manipulados os pedidos.
 ## Outros Padrões
-O Padrão *Front Controller* é uma especialização do padrão [Mediator](https://refactoring.guru/design-patterns/mediator).
-O padrão *Front Controller* pode ser utilizado em conjunção com outros padrões:
+O Padrão *Front Controller* é uma especialização do padrão [Mediator](https://refactoring.guru/design-patterns/mediator) e pode ser utilizado em conjunção com outros padrões:
 * O [*Chain of Responsability*](https://refactoring.guru/design-patterns/chain-of-responsibility) pode ser utilizado para criar um sistema de *middlewares*. Estes *middlewares* serão responsáveis por fazer o processamento (em cadeia) de algumas tarefas comuns em certos pedidos. O *handler* final pode ter acesso aos dados gerados no processamento de cada *middleware*.
 * O padrão [*Command*](https://refactoring.guru/design-patterns/command) pode ser usado para encapsular os pedidos.
 
