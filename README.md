@@ -2,10 +2,10 @@
 Síntese sobre o padrão de desenho *Front Controller* para a cadeira de Desenho Implementação de *Software* da Universidade da Madeira.
 
 Síntese realizada por:
-* Gonçalo Passos 2030415
-* Henrique Sousa 2094515
-* João Alves 2041916
-* Diogo Matthew 2042816
+* **Gonçalo Passos** - 2030415
+* **Henrique Sousa** - 2094515
+* **João Alves** - 2041916
+* **Diogo Matthew** - 2042816
 
 ## Contexto
 
