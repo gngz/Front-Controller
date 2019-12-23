@@ -4,8 +4,21 @@ Síntese sobre o padrão de desenho *Front Controller* para a cadeira de Desenho
 Síntese realizada por:
 * **Gonçalo Passos** - 2030415
 * **Henrique Sousa** - 2094515
-* **João Alves** - 2041916
 * **Diogo Matthew** - 2042816
+* **João Alves** - 2041916
+
+**Indíce**:
+- [Front-Controller](#front-controller)
+  - [Contexto](#contexto)
+  - [Problema](#problema)
+  - [Solução](#solu%c3%a7%c3%a3o)
+  - [Consequências](#consequ%c3%aancias)
+    - [Vantagens](#vantagens)
+    - [Desvantagens](#desvantagens)
+  - [Aplicabilidade](#aplicabilidade)
+  - [Outros Padrões](#outros-padr%c3%b5es)
+  - [Utilizações](#utiliza%c3%a7%c3%b5es)
+  - [Exemplo](#exemplo)
 
 ## Contexto
 
